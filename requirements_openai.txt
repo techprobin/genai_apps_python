@@ -1,0 +1,8 @@
+langchain
+langchain_community
+openai
+faiss-cpu
+tqdm
+python-dotenv
+tiktoken #must for OpenAIEmbeddings
+#new langchain_openai
