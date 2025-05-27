@@ -35,36 +35,48 @@ Ensure you have:
 git clone https://github.com/techprobin/genai_apps_python.git  
 cd genai_apps_python  
 pip install -r requirements.txt  
+```  
 
-
-🚀 Running the AI Chatbot
-Using Together AI
-bash
+## 🚀 Running the AI Chatbot  
+### Using Together AI  
+```bash
 export TOGETHERAI_API_KEY=your_togetherai_api_key  
-python app_together_open_compatibility.py  
-Using OpenAI
-bash
+python app_together_open_compatibility.py
+```  
+### Using OpenAI  
+```bash
 pip install -r requirements_openai.txt  
 export OPENAI_API_KEY=your_openai_api_key  
-python openai_app.py  
-📂 Folder Structure
-md
+python openai_app.py
+```  
+## 📂 Folder Structure  
+### local  
 /genai_apps_python  
 │── src/                # Main Python source files  
 │── models/             # Pre-trained AI models  
 │── datasets/           # Sample FAQ documents  
 │── requirements.txt    # Dependency list  
-│── docs/               # Documentation & usage guides  
-💡 Example Chat Session
-👤 User: What is the return policy?  
-🤖 AI Bot: You can return any item within 30 days of purchase.  
-📢 Contributions
-✅ Fork this repo and submit PRs for improvements. ✅ Feature requests are welcome via Issues. ✅ Join discussions on AI model integrations.
+│── docs/               # Documentation & usage guides
 
+## 💡 Example Chat Session  
+👤 User: What is the return policy?  
+🤖 AI Bot: You can return any item within 30 days of purchase.
+
+## 📢 Contributions  
+- ✅ **Fork this repo** and submit PRs for improvements.  
+- ✅ **Feature requests** are welcome via Issues.  
+- ✅ **Join discussions** on AI model integrations.  
+- ✅ **Follow me** and **star this repo**, along with more repositories of mine.  
+- ✅ **Like, Share, and Subscribe** for timely notifications and updates.  
+- ✅ **Sponsor me on [Patreon](https://patreon.com/ppgen)** to support more such wonderful work and future developments.  
 
 ______________________________________________________________________________________________________________________________________
 
-RE-READ:
+---  
+### Archived Details
+
+### RE-READ with details:
+
 # genai_apps_python
 Generative AI, LLM and Python
 Together AI Open AI Compatibility bundle supporting GPT-4(4.1), mistral, Llama(3, 4, Maverick), Qwen/2.5, black-forest/FLUX/dev, sonic/2, m2-bert etc.
