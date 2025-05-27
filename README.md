@@ -37,6 +37,6 @@ python openai_app.py
 ## 🧠 Example
 
 ```
-👤 You: What is our return policy?
+👤 You: What is the return policy?
 🤖 Bot: You can return any item within 30 days of purchase.
 ```
